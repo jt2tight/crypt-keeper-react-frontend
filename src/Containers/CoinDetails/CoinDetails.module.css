@@ -1,0 +1,153 @@
+.CoinDetails {
+    width: 100%; 
+    display: flex;
+    margin: auto; 
+    position: relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 79%, rgba(245,252,255,1) 100%);
+}
+
+.Details {
+    width: 50%; 
+    margin: auto; 
+    padding-top: 10%; 
+    
+}
+
+.HeaderWrapper {
+    display: flex;
+    margin-right: auto; 
+}
+
+.HeaderInfo {
+    width: 75%; 
+    margin-right: auto; 
+    display: block; 
+}
+
+.HeaderAction {
+    width: 35%; 
+    height: 35%; 
+    margin-left: auto; 
+    justify-content: space-around;
+    display: flex; 
+}
+
+.ActionWrapper {
+    width: auto; 
+    margin-left: auto; 
+    
+}
+
+.CoinHeader {
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px; 
+    padding-top: 10%; 
+}
+
+.CoinHeader h1 {
+    padding: 0px;
+    margin: 0px; 
+}
+
+.ChartOptions {
+    display: flex;
+    justify-content: space-between;
+    margin: auto; 
+    width: auto; 
+}
+
+.ChartOptions ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    padding-bottom: 50px;
+    align-items: center;
+    align-content: center;
+}
+
+.ChartOptions ul li {
+    padding: 5px 5px; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ChartTimeSelect {
+    color: black; 
+    background-color: white; 
+    border-radius: 5px;
+}
+
+.ChartTimeSelect:hover {
+    color: rgb(64, 64, 238);
+    /* background-color: rgb(64, 64, 238);  */
+    border-radius: 5px;
+}
+
+.ChartTimeSelectActive {
+    color: white; 
+    background-color: rgb(64, 64, 238); 
+    border-radius: 5px;
+}
+
+.Symbol {
+    text-transform: uppercase;
+    color: rgb(39, 177, 39); 
+    padding: 0px; 
+    margin: 0px; 
+}
+
+.Description {
+    position: relative;
+    padding-top: 5%; 
+    font-size: .8rem; 
+}
+
+.DescriptionInfo {
+    height: 100px;
+    overflow: hidden;
+}
+
+.DescriptionInfoExpanded {
+    height: auto; 
+}
+
+.ExpandBtn {
+    cursor: pointer;
+    font-size: 1.1rem; 
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(199, 199, 199); 
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px auto;
+     
+}
+
+.ExpandBtn:hover {
+    background-color: rgb(209, 209, 209); 
+}
+
+.SubBubbles {
+    display: flex; 
+    padding-top: 5px; 
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .Details {
+        padding-top: 15%;
+        width: 65%; 
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .Details {
+        padding-top: 20%; 
+        width: 90%; 
+    }
+}

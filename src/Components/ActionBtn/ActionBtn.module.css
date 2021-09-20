@@ -1,0 +1,16 @@
+.ActionBtn { 
+    text-align: center; 
+    padding: 10px 10px;
+    max-width: 150px; 
+    margin-top: 25px; 
+    border-radius: 25px; 
+    background:  rgb(0, 0, 187);
+    color: white; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: .85rem; 
+}
+
+.ActionBtn:hover {
+    background-color: rgb(10, 10, 255); 
+}

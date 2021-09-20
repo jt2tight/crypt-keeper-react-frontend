@@ -1,0 +1,18 @@
+.DeveloperBubble {
+    margin: 25px 15px 0px 0px; 
+    padding: 5px 10px; 
+    border-radius: 10px;
+    background: rgb(206, 206, 206); 
+    font-size: .8rem; 
+    color: white; 
+    margin-right: 10px; 
+}
+
+.DeveloperBubble a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.DeveloperBubble a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,155 @@
+.CoinList {
+    width: 80%; 
+    margin: auto;
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    font-weight: 600;
+}
+
+
+.CoinTable {
+    width: auto; 
+    text-align: left;
+    margin: auto;
+    position: relative; 
+    table-layout: fixed;
+}
+
+.CoinTable h3 {
+    font-size: 1.2rem; 
+    color: rgb(0, 0, 0); 
+   
+}
+
+.CoinTable h4 {
+    color: rgb(85, 184, 85); 
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.CoinTable table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    
+}
+
+.CoinTable thead {
+    display: table-header-group;
+    font-size: 1.2rem;
+   
+    
+}
+
+.CoinTable th {
+    text-align: left;
+
+
+
+}
+
+
+.CoinTable tr {
+    padding: 20px 0px; 
+    
+}
+
+
+.CoinTable td {    
+    width: 500px;
+    border-spacing: 0px;
+
+
+} 
+
+
+
+
+.CoinItemHead {
+    display: flex;
+    text-align: left;
+    
+}
+
+.CoinItemHead img {
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 25px;
+}
+
+.CoinTitle {
+    display: block; 
+    text-align: left;
+
+}
+
+.CurrentPrice {
+    text-align: center;
+    /* margin: auto;
+    width: 25%;  */
+    /* background: black; */
+    
+}
+
+.Volume {
+    text-align: left;
+    /* margin: auto;
+    width: 25%;  */
+}
+
+.MarketCap {
+    /* width: 25%;  */
+    text-align: right;
+
+    
+    
+}
+
+.Action {
+    padding: 10px;
+    width: 200px; 
+    margin: auto; 
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.5);
+    transform: translateX(50px);
+    text-align: center;
+    border-radius: 5px;
+    position: absolute; 
+
+}
+
+.Action p:hover {
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .CoinList {
+        padding-top: 10%;
+        width: 85%; 
+        font-size: .9rem; 
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .CoinList {
+        width: 95%;
+        font-size: .7rem; 
+    }
+
+    .CoinList h3 {
+        font-size: 1rem;
+    }
+
+    .CoinList h4{
+        font-size: .8rem;
+    }
+
+    .CoinTable thead {
+        font-size: .9rem;
+    }
+}

@@ -1,0 +1,54 @@
+.Action {
+    padding: 10px;
+    width: 200px; 
+    margin: auto; 
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.5);
+    transform: translate(45px, -45px);
+    text-align: center;
+    border-radius: 5px;
+    position: absolute; 
+    z-index: 100;
+    background-color: white;
+
+}
+
+.Action p {
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.Action p:hover {
+    background: rgb(218, 218, 218); 
+    cursor: pointer;
+    padding: 5px 5px;
+
+}
+
+@media screen and (max-width: 1440px){
+    .Action {
+        transform: translate(-250px, -45px);
+        
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .Action {
+        width: 250px;
+        transform: translate(-215px, -45px);
+    }
+
+    .Action p {
+        font-size: 1rem; 
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .Action {
+        width: 200px;
+        transform: translate(-250px, -45px);
+    }
+
+    .Action p {
+        font-size: 1rem; 
+    }
+}

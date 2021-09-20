@@ -1,0 +1,10 @@
+.Home {
+    /* background: rgb(247, 247, 247); */
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 79%, rgba(245,252,255,1) 100%);
+    color: rgb(48, 48, 48); 
+}
+
+.Wrapper {
+    padding-top: 10%; 
+}

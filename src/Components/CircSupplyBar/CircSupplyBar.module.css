@@ -1,0 +1,94 @@
+.CircSupplyBar {
+    position: relative; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Details {
+    display: flex; 
+}
+
+.MoreDetails {
+    margin: auto;
+    z-index: 100;
+    min-width: 300px;
+    position: absolute;
+    background: white; 
+    transform: translateY(50px);
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px 2px rgba(0,0,0,0.5);
+    font-size: .85rem; 
+    padding: 10px;
+}
+
+.MoreDetails p {
+    margin-top: auto; 
+    margin-bottom: auto;  
+    font-weight: normal;
+
+}
+
+.MoreDetails span {
+    font-weight: 500;
+}
+
+.Info {
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background-color: rgb(206, 206, 206); 
+    color: white;
+    text-transform: lowercase;
+    text-align: center; 
+    font-style: italic;
+    
+}
+
+.Info:hover {
+    cursor: pointer;
+}
+
+.Bar {
+    position: relative;
+    min-height: 15px; 
+    width: 200px; 
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    margin-top: 5px; 
+    
+}
+
+.Bar div {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative; 
+    background: rgb(96, 119, 150); 
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .Bar {
+        width: 100px;
+    }
+
+    .MoreDetails {
+        min-width: 200px;
+        font-size: .65rem;
+        transform: translateX(-40px);
+    }
+
+    .Info {
+        margin-right: 2.5px;
+        width: 20px;
+        height: 20px;
+        font-size: .7rem;
+    }
+
+    .Info div {
+        font-size: .5rem; 
+    }
+
+
+}

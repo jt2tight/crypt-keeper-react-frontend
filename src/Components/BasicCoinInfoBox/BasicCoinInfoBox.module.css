@@ -1,0 +1,41 @@
+
+
+.BasicCoinInfoBox ul{
+    list-style-type: none;
+    list-style-position: inside;
+    display: block;
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
+    font-size: .8rem; 
+    margin-right: auto;
+    
+}
+
+.BasicCoinInfoBox ul li{
+    padding-top: 5px; 
+}
+
+.PriceInfo {
+    display: flex; 
+    margin: auto; 
+}
+
+.PriceChangePercentGreen {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: rgb(28, 199, 28);
+    color: white;
+    max-width: 40px;
+}
+
+.PriceChangePercentRed {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: rgb(211, 55, 55);
+    color: white;
+}

@@ -1,0 +1,43 @@
+.Header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    color: white; 
+    width: 100vw;
+    height: 15vh;
+    z-index: 10; 
+    overflow: hidden;
+    /* border-bottom: 2px solid rgb(221, 221, 221); */
+}
+
+.MarketOverview {
+    width: 50%; 
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-size: .85rem; 
+    color: grey; 
+}
+
+@media screen and (max-width: 1200px){
+    .Header {
+        height: 17vh; 
+    }
+    
+}
+
+@media screen and (max-width: 1050px){
+    .Header {
+        height: 150px; 
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    .Header {
+        height: 160px; 
+    }
+    
+}

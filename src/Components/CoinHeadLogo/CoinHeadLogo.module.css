@@ -1,0 +1,30 @@
+.CoinHeadLogo {
+    display: flex; 
+    width: 100px;
+    text-align: left;
+}
+
+.CoinTitle {
+    display: block; 
+    margin-left: 10px; 
+}
+
+.CoinTitle h4 {
+    text-transform: uppercase;
+    color: rgb(20, 194, 20);
+    padding: 0px; 
+    margin: 0px; 
+}
+
+.CoinTitle h1 {
+    text-transform: capitalize;
+    padding: 0px; 
+    margin: 0px;  
+    
+}
+
+.CoinHeadLogo img {
+    height: 35px;
+    width: 35px; 
+    margin: auto; 
+}
